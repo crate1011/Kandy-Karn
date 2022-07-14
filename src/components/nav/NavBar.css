@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    background-color: black;
+    border: 1px dotted darkorange;
+}
+
+.navbar__item {
+    flex-basis: 20%;
+    list-style-type: none;
+    
+}
+
+.navbar__logout {
+    margin-left: auto;
+   
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 14em;
+    background-color: black;
+    border: 1px dotted darkorange;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+.product {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 14em;
+    background-color: black;
+    border: 1px dotted darkorange;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}

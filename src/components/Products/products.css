@@ -1,0 +1,29 @@
+.produtForm {
+    width: 30em;
+    background-color: darkorange;
+}
+
+.productForm__title {
+    background-color: black;
+}
+
+.form-group {
+    background-color: black;
+}
+
+.Admin-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90em;
+}
+
+.drop__candy {
+    background-color: black;
+}
+
+.the__drop {
+    display: flex;
+   justify-content: space-between;
+   padding-right: 15em;
+
+}
