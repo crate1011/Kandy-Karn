@@ -1,0 +1,21 @@
+.customers {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 17.7em;
+    background-color: black;
+    border: 1px dotted darkorange;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 16em;
+    background-color: black;
+    border: 1px dotted darkorange;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
