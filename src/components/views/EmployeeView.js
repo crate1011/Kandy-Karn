@@ -1,4 +1,6 @@
 import { Outlet, Route, Routes } from "react-router-dom"
+import { EmployeeForm } from "../EmployeeForm/CreateEmployee"
+import { EmployeeList } from "../EmployeeForm/EmployeeList"
 import { HomeList } from "../nav/Home"
 import { LocationList } from "../nav/Locations"
 import { KandyForm } from "../Products/KandyForm"
@@ -24,6 +26,9 @@ export const EmployeeViews = () => {
                 <Route path="/location/2" element={<HahaYeah />} />
                 <Route path="/location/3" element={<Skrittle />} />
                 <Route path="kandy/create" element={ <KandyForm /> } />
+                <Route path="employee/create" element={ <EmployeeForm /> } />
+                <Route path="employees" element={ <EmployeeList /> } />
+                
             </Route>
         </Routes>
     )

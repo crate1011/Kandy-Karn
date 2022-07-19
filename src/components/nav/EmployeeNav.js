@@ -14,6 +14,9 @@ export const EmployeeNavBar = () => {
             <li className="navbar__item active">
                 <Link color="orange" className="navbar__link" to="/products">All Products</Link>
             </li>
+            <li className="navbar__item active">
+                <Link color="orange" className="navbar__link" to="/employees">Employees</Link>
+            </li>
                 
             <li className="navbar__item navbar__logout">
                 <Link color="orange" className="navbar__link" to="" onClick={() => {
@@ -21,7 +24,7 @@ export const EmployeeNavBar = () => {
                     navigate("/", {replace: true})
                 }}>Logout</Link>
             </li>
-        
+                
     </ul>
 
     )
